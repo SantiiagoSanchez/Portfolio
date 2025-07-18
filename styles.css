@@ -23,6 +23,21 @@ h1{
     font-family: "Montserrat", sans-serif;
 }
 
+.seccion-oscura{
+    color: #FFF;
+    background-color: #1B1B32;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
 
 
 /*Seccion Hero (Principal)*/
@@ -117,6 +132,17 @@ h1{
   background-color: #e0e0e0;
 }
 
+/*Seccion sobre mi*/
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
 
 /*Responsive*/
 
