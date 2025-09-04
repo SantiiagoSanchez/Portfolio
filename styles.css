@@ -227,6 +227,73 @@ h1{
     opacity: 1;
 }
 
+/*FAQ*/
+
+.faq-seccion {
+    padding: 60px 20px;
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+}
+
+.faq-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: #1a1a1a;
+    position: relative;
+}
+
+.faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+    transition: transform 0.3s ease;
+}
+
+.faq-item.open .faq-question::after {
+    content: '-';
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    font-size: 0.95em;
+    color: #4a5568;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-item.open .faq-answer {
+    max-height: 500px;
+    padding: 0 20px 20px 20px;
+}
+
 
 /* Contacto */
 
@@ -282,6 +349,62 @@ h1{
     color: white;
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
+}
+
+
+/*Footer*/
+
+footer{
+    min-height: 500px;
+}
+
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    object-fit: contain;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid #0D6EFD;
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
 }
 
 /*Responsive*/
