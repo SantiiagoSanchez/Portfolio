@@ -495,7 +495,24 @@ footer{
 .badge.tech-mongodb {
     background-color: #47a248;
     color: #fff;
-    }
+}
+
+.badge.tech-python {
+    background-color: #3776ab;
+    color: #fff;
+}
+.badge.tech-django {
+    background-color: #092e20;
+    color: #fff;
+}
+.badge.tech-pgadmin {
+    background-color: #336791;
+    color: #fff;
+}
+.badge.tech-sqlite {
+    background-color: #003b57;
+    color: #fff;
+}
 
 /* Herramientas */
 .tech-git {
