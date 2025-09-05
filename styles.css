@@ -455,6 +455,19 @@ footer{
     background-color: #dd0031; 
 }
 
+.badge.tech-html {
+    background-color: #e34c26;
+    color: #fff;
+}
+.badge.tech-css {
+    background-color: #264de4;
+    color: #fff;
+}
+.badge.tech-tailwind {
+    background-color: #38bdf8;
+    color: #fff;
+}
+
 /* Backend */
 .tech-dotnet {
     background-color: #5c2d91;
@@ -470,6 +483,19 @@ footer{
 .tech-sql {
     background-color: #2f855a; 
 }
+
+.badge.tech-fastapi {
+    background-color: #05998b;
+    color: #fff;
+}
+.badge.tech-django {
+    background-color: #092e20;
+    color: #fff;
+}
+.badge.tech-mongodb {
+    background-color: #47a248;
+    color: #fff;
+    }
 
 /* Herramientas */
 .tech-git {
